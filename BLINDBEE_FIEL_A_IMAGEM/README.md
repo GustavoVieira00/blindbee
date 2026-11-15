@@ -39,3 +39,7 @@ A equipe deve: inserir integrantes e RAs; comprovar correções solicitadas do M
 
 ## Página inicial fiel à referência visual
 A página `index.html` utiliza `assets/css/home-referencia.css` para recriar a composição de referência: cabeçalho amarelo, navegação preta, barra de acessibilidade, conteúdo introdutório preto com mascote e três cards claros na mesma seção. As ilustrações SVG redesenhadas são originais ao projeto e as listras acompanham o corpo da abelha. Os recursos de teclado, alto contraste e leitura em voz alta permanecem disponíveis.
+
+## Fluxo de desenvolvimento
+
+Branch criada para organizar alterações e melhorias do projeto Blindbee.
