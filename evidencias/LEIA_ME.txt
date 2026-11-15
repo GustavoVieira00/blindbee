@@ -1,0 +1,1 @@
+Guarde AQUI as capturas reais feitas pela equipe (desktop, celular, formulário, W3C, Lighthouse, NVDA/VoiceOver, commits, PR e URL HTTPS). Não anexar resultados inventados. Veja docs/testes.md.
