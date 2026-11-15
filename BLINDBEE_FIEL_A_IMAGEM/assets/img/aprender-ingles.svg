@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 420" role="img" aria-labelledby="title desc">
+<title id="title">Abelha Blindbee lendo um livro aberto</title><desc id="desc">Abelha com óculos escuros, asas brancas e listras pretas alinhadas, sobre um livro aberto.</desc>
+<!-- Wing/body on top of book -->
+<g transform="translate(52,-12) scale(1.10)">
+<!-- white wings -->
+<path d="M190 134 C164 98 165 46 195 32 C231 12 256 51 260 90 C286 58 329 64 339 101 C349 140 317 167 292 183" fill="#fffdf8" stroke="#090909" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- legs -->
+<path d="M226 252 L218 279 M269 251 L275 278 M305 241 L318 266" fill="none" stroke="#090909" stroke-width="10" stroke-linecap="round"/>
+<!-- torso -->
+<path id="torso" d="M150 140 C194 101 264 109 310 150 C338 175 356 211 344 232 C330 259 291 272 238 271 C200 272 164 259 141 230 C120 203 120 161 150 140 Z" fill="#080808" stroke="#070707" stroke-width="10" stroke-linejoin="round"/>
+<defs><clipPath id="beeTorso"><use href="#torso"/></clipPath></defs>
+<!-- three yellow curved spaces between four solid black stripes; clipped to body contour -->
+<g clip-path="url(#beeTorso)" fill="#ffcb30" stroke="none">
+ <path d="M189 117 C222 145 224 225 194 265 L179 269 C207 226 205 156 171 125 Z"/>
+ <path d="M246 119 C276 155 277 231 251 272 L234 276 C257 230 255 153 226 117 Z"/>
+ <path d="M300 144 C322 174 325 223 308 255 L291 267 C306 222 307 177 285 137 Z"/>
+</g>
+<!-- side face, separated from torso stripes -->
+<path d="M135 152 C153 136 177 140 194 151 C214 164 215 212 195 236 C182 255 148 259 129 243 C110 229 106 204 108 185 C110 170 118 160 135 152 Z" fill="#ffcc31" stroke="#090909" stroke-width="9" stroke-linejoin="round"/>
+<!-- eyeglasses and black nose -->
+<path d="M113 175 C143 168 149 190 177 188" fill="none" stroke="#090909" stroke-width="8" stroke-linecap="round"/>
+<ellipse cx="173" cy="181" rx="33" ry="29" fill="#0b0b0b"/>
+<ellipse cx="129" cy="180" rx="28" ry="29" fill="#0b0b0b"/>
+<circle cx="93" cy="175" r="21" fill="#090909"/>
+<!-- smile -->
+<path d="M128 214 C137 237 169 241 184 215" fill="none" stroke="#090909" stroke-width="9" stroke-linecap="round"/>
+</g>
+<!-- open book, left and right pages -->
+<g stroke="#080808" stroke-width="8" stroke-linejoin="round" stroke-linecap="round">
+ <path d="M52 324 Q148 280 260 349 Q362 277 465 324 L488 379 Q383 352 260 409 Q128 352 36 379 Z" fill="#ffcf31"/>
+ <path d="M52 318 Q151 280 260 346 L260 391 Q141 333 48 366 Z" fill="#fffdf8"/>
+ <path d="M260 346 Q361 280 465 318 L475 369 Q365 333 260 391 Z" fill="#fffdf8"/>
+ <path d="M260 346 L260 391" fill="none"/>
+</g>
+<g fill="none" stroke="#080808" stroke-width="4" stroke-linecap="round">
+ <path d="M92 326 Q152 310 221 348 M86 349 Q145 332 218 367 M308 348 Q378 313 431 327 M310 369 Q379 334 439 349"/>
+</g>
+</svg>

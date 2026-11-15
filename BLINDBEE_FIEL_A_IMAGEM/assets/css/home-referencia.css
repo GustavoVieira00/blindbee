@@ -1,0 +1,135 @@
+/* Blindbee — homepage aligned to the user-approved 1672 x 941 reference.
+   This file is loaded after the existing theme and only changes the homepage. */
+:root{--bb-yellow:#ffcc32;--bb-black:#0b0b0b;--bb-cream:#fff2d8}
+body.blindbee-home{background:#0b0b0b;color:#111}
+body.blindbee-home .bb-header{background:#ffca30;color:#0b0b0b;border:0;overflow:visible}
+body.blindbee-home .bb-header::before,body.blindbee-home .bb-header::after{content:none;display:none}
+body.blindbee-home .bb-brandbar{height:114px;background:linear-gradient(160deg,#ffcd48,#ffcb28);overflow:hidden}
+body.blindbee-home .bb-brandwrap{max-width:1672px;height:114px;margin:0 auto;position:relative;padding:0 48px;display:flex;align-items:center}
+body.blindbee-home .bb-brand{z-index:2;display:flex;align-items:center;gap:26px;min-width:0;color:#050505;text-decoration:none}
+body.blindbee-home .bb-brand img{height:104px;width:126px;object-fit:contain;flex:none}
+body.blindbee-home .bb-brandtext{display:flex;flex-direction:column;line-height:1}
+body.blindbee-home .bb-brandtext strong{font-size:clamp(2.2rem,3.95vw,4.1rem);letter-spacing:-.05em;font-weight:950;line-height:.98;color:#050505}
+body.blindbee-home .bb-brandtext small{font-size:clamp(.9rem,1.28vw,1.38rem);font-weight:650;letter-spacing:-.02em;margin-top:6px;color:#090909}
+body.blindbee-home .bb-header-combs{position:absolute;left:39%;top:-8px;width:40%;height:125px;background:url('../img/favos.svg') no-repeat left top/570px auto;opacity:.7}
+body.blindbee-home .bb-header-stripes{position:absolute;right:0;top:0;height:114px;width:232px;background:repeating-linear-gradient(90deg,#050505 0 52px,transparent 52px 72px);opacity:1}
+body.blindbee-home .bb-menu{display:none!important}
+body.blindbee-home .bb-nav{display:block!important;position:relative;z-index:4;margin:0;padding:0;border:0;border-radius:0;background:#101010;width:100%;min-height:56px}
+body.blindbee-home .bb-navinner{min-height:56px;max-width:1600px;padding:0 30px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:0}
+body.blindbee-home .bb-nav a{color:#fff;font-size:clamp(.94rem,1.05vw,1.16rem);line-height:1.15;font-weight:800;text-decoration:none;display:flex;align-items:center;justify-content:center;position:relative;white-space:nowrap;min-height:44px;border-radius:12px;padding:9px clamp(10px,1.3vw,24px);background:transparent;transition:background .12s ease,color .12s ease}
+body.blindbee-home .bb-nav a+a::before{content:'|';position:absolute;left:-12px;top:50%;transform:translateY(-50%);color:#d8d8d8;font-weight:400}
+body.blindbee-home .bb-nav a:hover,body.blindbee-home .bb-nav a[aria-current="page"]{background:#ffce37;color:#050505}
+body.blindbee-home .bb-nav a[aria-current="page"]::before,body.blindbee-home .bb-nav a:hover::before{color:#d8d8d8}
+body.blindbee-home .bb-tools{border:0;border-bottom:2px solid #b3a38d;background:#f9edda;color:#050505;padding:0}
+body.blindbee-home .bb-tools-inner{max-width:1672px;min-height:82px;padding:10px 48px;margin:auto;display:flex;align-items:center;gap:24px}
+body.blindbee-home .bb-toolstitle{min-width:410px;display:flex;align-items:center;gap:13px;margin:0;color:#111;font-size:1.18rem;font-weight:800;line-height:1.1}
+body.blindbee-home .bb-acess-icon{display:grid;place-items:center;width:40px;height:40px;background:#151515;color:#fff;border-radius:50%;font-size:1.4rem;font-weight:bold}
+body.blindbee-home .bb-controls{display:flex;align-items:center;gap:14px;flex:none;flex-wrap:nowrap;margin:0}
+body.blindbee-home .bb-controls button{min-height:52px;padding:10px 18px;font-size:1.03rem;line-height:1.2;font-weight:850;white-space:nowrap;background:#fffdf8;color:#101010;border:2px solid #171717;border-radius:15px;box-shadow:none}
+body.blindbee-home .bb-controls button:hover{background:#ffe49d;color:#111}
+body.blindbee-home .bb-controls #blindbee-voz-toggle{background:#101010;color:#fff;border:3px solid #ffcf33;box-shadow:none}
+body.blindbee-home .bb-controls #blindbee-voz-toggle:hover{background:#252525;color:#fff}
+body.blindbee-home .bb-controls #blindbee-voz-toggle[aria-pressed="true"]{background:#ffce38;color:#111}
+body.blindbee-home .bb-toolstip{border-left:2px solid #bda984;padding-left:16px;margin:0;max-width:340px;line-height:1.24;color:#111!important;font-size:.88rem!important;font-weight:500}
+body.blindbee-home .bb-hero{padding:0;margin:0;background:#0b0b0b!important;position:relative;overflow:hidden;border:0}
+body.blindbee-home .bb-hero::before,body.blindbee-home .bb-hero::after{content:none;display:none}
+body.blindbee-home .bb-hero-frame{max-width:1672px;padding:0 50px 16px;margin:0 auto}
+body.blindbee-home .bb-hero-upper{height:443px;display:grid;grid-template-columns:minmax(0,1.03fr) minmax(0,.97fr);gap:12px;position:relative}
+body.blindbee-home .bb-intro{padding:18px 0 0 28px;position:relative;z-index:2;min-width:0}
+body.blindbee-home .bb-kicker{font-size:1.03rem;line-height:1.3;font-weight:850;letter-spacing:.08em;color:#ffcf33;margin:0 0 15px;text-transform:uppercase}
+body.blindbee-home .bb-intro h1{font-size:clamp(2.6rem,4.1vw,4.6rem);line-height:1.03;letter-spacing:-.047em;color:#fff;margin:0 0 16px;max-width:710px;font-weight:930}
+body.blindbee-home .bb-intro h1 span{display:inline-block;white-space:nowrap;background:#ffcf39;border:3px solid #131313;box-shadow:0 0 0 2px #ffc52c;color:#0b0b0b;border-radius:16px;padding:2px 12px 8px;margin-top:5px}
+body.blindbee-home .bb-lead{color:#f4f1e9!important;font-size:clamp(1.12rem,1.3vw,1.37rem);line-height:1.4;margin:0;max-width:690px}
+body.blindbee-home .bb-hero-actions{display:flex;align-items:center;gap:16px;margin-top:20px;flex-wrap:nowrap}
+body.blindbee-home .bb-cta{min-height:76px;padding:12px 22px;display:inline-flex;align-items:center;justify-content:center;gap:12px;white-space:nowrap;border-radius:18px;font-size:clamp(1.1rem,1.45vw,1.4rem);font-weight:800;text-decoration:none;line-height:1.2;transition:background .12s ease}
+body.blindbee-home .bb-cta-primary{background:#131313;color:#fff;border:3px solid #ffcc2c;box-shadow:0 0 0 1px #080808}
+body.blindbee-home .bb-cta-primary:hover{background:#333;color:#fff}
+body.blindbee-home .bb-cta-secondary{background:#fffdf8;color:#111;border:3px solid #151515;box-shadow:0 0 0 1px #e4e4e4}
+body.blindbee-home .bb-cta-secondary:hover{background:#ffebad;color:#111}
+body.blindbee-home .bb-visual{position:relative;height:437px;min-width:0}
+body.blindbee-home .bb-visual img{position:absolute;z-index:2;right:0;bottom:4px;width:min(95%,560px);height:350px;object-fit:contain;filter:none;box-shadow:none;border:0;background:transparent}
+body.blindbee-home .bb-bubble{position:absolute;z-index:3;top:33px;left:4%;border:6px solid #070707;box-shadow:0 0 0 3px #ffca28;border-radius:50% 46% 48% 40%;background:#ffca29;color:#0c0c0c;font-size:3.3rem;font-weight:950;transform:rotate(-7deg);padding:8px 38px 14px;line-height:1.2}
+body.blindbee-home .bb-bubble::after{content:"";position:absolute;bottom:-28px;left:55%;width:36px;height:34px;background:#ffca29;border-right:6px solid #0a0a0a;border-bottom:6px solid #0a0a0a;transform:skewY(40deg) rotate(10deg);z-index:-1}
+body.blindbee-home .bb-combs{position:absolute;z-index:1;right:0;top:6px;width:210px;height:250px;background:url('../img/favos.svg') no-repeat center/380px 380px;opacity:.85}
+body.blindbee-home .bb-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;align-items:stretch}
+body.blindbee-home .bb-feature{display:grid;grid-template-columns:88px minmax(0,1fr);align-items:start;gap:20px;min-height:169px;padding:16px 20px;background:#fffdf8;color:#111;border:3px solid #171717;border-radius:24px;box-shadow:0 7px 0 rgba(255,255,255,.14)}
+body.blindbee-home .bb-feature-icon{width:84px;height:84px;display:grid;place-items:center;font-size:3.6rem;font-weight:900;line-height:1;background:#ffca2d;color:#111;border-radius:18px;flex:none}
+body.blindbee-home .bb-feature h2{font-size:clamp(1.15rem,1.3vw,1.48rem);line-height:1.1;margin:0 0 7px;font-weight:900;letter-spacing:-.03em;color:#111}
+body.blindbee-home .bb-feature p{font-size:clamp(.94rem,1.02vw,1.07rem);line-height:1.3;margin:0 0 6px;color:#111}
+body.blindbee-home .bb-feature a{font-size:clamp(1rem,1.1vw,1.14rem);color:#111;text-underline-offset:5px;text-decoration-color:#ffcb30;text-decoration-thickness:4px;font-weight:900}
+body.blindbee-home .bb-notice{background:#101010;color:#fff;min-height:65px;border:0;border-top:1px solid #666;padding:0}
+body.blindbee-home .bb-notice .container{max-width:1500px;margin:0 auto;padding:16px 22px;color:#f1f1f1;font-size:1.04rem;line-height:1.45;display:flex;gap:14px;align-items:center}
+body.blindbee-home .bb-notice .container::before{content:'ⓘ';color:#fff;font-weight:800;font-size:1.55rem;flex:none}
+/* Keep other educational sections below this exact first-screen composition. */
+body.blindbee-home main > section:not(.bb-hero){background:#fffdf7;color:#111}
+body.blindbee-home main > section.fundo-claro{background:#fff0c9}
+@media (max-width:1400px){
+ body.blindbee-home .bb-toolstitle{min-width:330px;font-size:1.04rem}
+ body.blindbee-home .bb-tools-inner{gap:12px;padding-inline:26px}
+ body.blindbee-home .bb-controls{gap:8px}
+ body.blindbee-home .bb-controls button{padding-inline:12px;font-size:.93rem}
+ body.blindbee-home .bb-toolstip{font-size:.79rem!important;padding-left:10px}
+ body.blindbee-home .bb-hero-frame{padding-inline:34px}
+ body.blindbee-home .bb-intro{padding-left:8px}
+ body.blindbee-home .bb-intro h1{font-size:clamp(2.6rem,4.3vw,4.1rem)}
+ body.blindbee-home .bb-feature{gap:13px;padding:16px;grid-template-columns:70px 1fr}
+ body.blindbee-home .bb-feature-icon{width:70px;height:72px;font-size:3rem}
+ body.blindbee-home .bb-nav a{padding-inline:12px;font-size:.9rem}
+}
+@media (max-width:1080px){
+ body.blindbee-home .bb-tools-inner{flex-wrap:wrap;min-height:auto;padding-block:12px}
+ body.blindbee-home .bb-toolstitle{min-width:100%;}
+ body.blindbee-home .bb-toolstip{max-width:380px}
+ body.blindbee-home .bb-nav a{padding-inline:8px;font-size:.83rem}
+ body.blindbee-home .bb-hero-upper{height:auto;min-height:410px;grid-template-columns:1fr .75fr}
+ body.blindbee-home .bb-intro h1 span{white-space:normal}
+ body.blindbee-home .bb-hero-actions{flex-wrap:wrap}
+ body.blindbee-home .bb-cta{min-height:67px;font-size:1.08rem}
+ body.blindbee-home .bb-visual{height:410px}
+ body.blindbee-home .bb-bubble{font-size:2.3rem;padding:7px 25px}
+ body.blindbee-home .bb-feature{grid-template-columns:1fr}
+}
+@media (max-width:850px){
+ body.blindbee-home .bb-brandbar,body.blindbee-home .bb-brandwrap{height:102px}
+ body.blindbee-home .bb-brandwrap{padding-inline:15px}
+ body.blindbee-home .bb-brand img{height:80px;width:86px}
+ body.blindbee-home .bb-brandtext strong{font-size:2rem}
+ body.blindbee-home .bb-brandtext small{font-size:.76rem}
+ body.blindbee-home .bb-header-stripes{width:70px;opacity:.35}
+ body.blindbee-home .bb-menu{display:block!important;position:absolute;right:18px;top:33px;z-index:10;border:2px solid #111;border-radius:12px;background:#fffae8!important;color:#111!important;padding:9px 12px;font-weight:800}
+ body.blindbee-home .bb-brand{padding-right:96px}
+ body.blindbee-home .bb-nav{display:none!important;min-height:0}
+ body.blindbee-home .bb-nav[data-aberta="true"]{display:block!important}
+ body.blindbee-home .bb-navinner{display:flex;flex-direction:column;align-items:stretch;padding:10px 16px}
+ body.blindbee-home .bb-nav a{font-size:1.07rem;justify-content:flex-start;min-height:50px;padding:12px 18px}
+ body.blindbee-home .bb-nav a::before{display:none!important}
+ body.blindbee-home .bb-tools-inner{padding-inline:18px}
+ body.blindbee-home .bb-controls{flex-wrap:wrap}
+ body.blindbee-home .bb-controls button{min-height:54px}
+ body.blindbee-home .bb-toolstip{border-left:0;padding-left:0;max-width:none}
+ body.blindbee-home .bb-hero-frame{padding:20px 18px 22px}
+ body.blindbee-home .bb-hero-upper{display:flex;flex-direction:column;height:auto}
+ body.blindbee-home .bb-intro{padding:0}
+ body.blindbee-home .bb-intro h1{font-size:clamp(2.5rem,7vw,4rem)}
+ body.blindbee-home .bb-lead{font-size:1.1rem}
+ body.blindbee-home .bb-visual{height:275px;width:100%;max-width:460px;margin:10px auto 0}
+ body.blindbee-home .bb-visual img{height:265px}
+ body.blindbee-home .bb-bubble{top:4px;font-size:2rem}
+ body.blindbee-home .bb-cards{grid-template-columns:1fr;gap:16px}
+ body.blindbee-home .bb-feature{grid-template-columns:70px 1fr;min-height:140px}
+}
+@media (max-width:520px){
+ body.blindbee-home .bb-header-stripes{display:none}
+ body.blindbee-home .bb-brandtext strong{font-size:1.5rem}
+ body.blindbee-home .bb-brandtext small{font-size:.66rem}
+ body.blindbee-home .bb-brand img{width:70px;height:75px}
+ body.blindbee-home .bb-hero-actions{display:flex;flex-direction:column;align-items:stretch}
+ body.blindbee-home .bb-cta{width:100%;font-size:1.04rem;white-space:normal;text-align:center}
+ body.blindbee-home .bb-visual{height:255px}
+ body.blindbee-home .bb-visual img{height:250px}
+ body.blindbee-home .bb-bubble{font-size:1.5rem;padding:6px 17px;top:10px}
+ body.blindbee-home .bb-feature{gap:12px;padding:15px;grid-template-columns:66px 1fr}
+ body.blindbee-home .bb-feature-icon{width:62px;height:67px;font-size:2.7rem}
+ body.blindbee-home .bb-feature h2{font-size:1.2rem}
+}
+@media (prefers-reduced-motion:reduce){body.blindbee-home .bb-cta{transition:none}}

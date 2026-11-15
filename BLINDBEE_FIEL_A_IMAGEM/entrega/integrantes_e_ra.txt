@@ -1,0 +1,7 @@
+BLINDBEE — EQUIPE / RA
+Preencher com dados reais de todos os integrantes.
+
+Integrante 1 — Nome: [PREENCHER] — RA: [PREENCHER]
+Integrante 2 — Nome: [PREENCHER] — RA: [PREENCHER]
+Integrante 3 — Nome: [PREENCHER] — RA: [PREENCHER]
+Integrante 4 — Nome: [PREENCHER] — RA: [PREENCHER]
