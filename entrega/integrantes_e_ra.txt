@@ -1,7 +1,8 @@
 BLINDBEE — EQUIPE / RA
-Preencher com dados reais de todos os integrantes.
 
-Integrante 1 — Nome: [PREENCHER] — RA: [PREENCHER]
-Integrante 2 — Nome: [PREENCHER] — RA: [PREENCHER]
-Integrante 3 — Nome: [PREENCHER] — RA: [PREENCHER]
-Integrante 4 — Nome: [PREENCHER] — RA: [PREENCHER]
+Alexandre Bertalia / RA: 50011031
+Beatriz Santos Carvalho / RA: 49706128
+Gustavo Felipe De Freitas vieira / RA: 49611691
+Lucas Quirino Frizarim De Oliveira / RA: 49877470
+Maria Eduarda Nogueira / RA: 49430271
+Thiago Viana Da Silva / RA: 4953071
