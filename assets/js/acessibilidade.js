@@ -4,6 +4,16 @@
 (() => {
   'use strict';
 
+  // Use as versões PNG das imagens da marca e da ilustração, disponíveis em assets/img.
+  document.querySelectorAll('img[src]').forEach(imagem => {
+    const origem = imagem.getAttribute('src');
+    if (origem.endsWith('abelha-blindbee.svg')) {
+      imagem.setAttribute('src', origem.replace('abelha-blindbee.svg', 'abelha-blindbee.png'));
+    } else if (origem.endsWith('aprender-ingles.svg')) {
+      imagem.setAttribute('src', origem.replace('aprender-ingles.svg', 'aprender-ingles.png'));
+    }
+  });
+
   const botao = document.getElementById('blindbee-voz-toggle');
   if (!botao) return;
   const status = document.querySelector('.blindbee-status-voz');
@@ -150,7 +160,7 @@
   });
   document.addEventListener('click', event => {
     // Não competir com a síntese de pronúncia das aulas (data-falar).
-    if (event.target instanceof Element && event.target.closest('[data-falar]')) parar();
+    if (event.target instanceof Element && event.target.closest('[data-fala]')) parar();
   }, true);
   window.addEventListener('pagehide', parar);
   atualizar();
